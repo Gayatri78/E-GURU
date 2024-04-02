@@ -1,0 +1,46 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.div2 {
+  text-align: center;
+}
+.divh1 {
+  color: #010101;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-size: 35px;
+}
+.container p {
+  font-size: 22px;
+}
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.col {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+.pic img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 14px;
+}
